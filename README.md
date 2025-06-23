@@ -113,19 +113,6 @@ This workaround gives your Pi Node a **public IPv4 address via your VPS using Wi
 
 ---
 
-## ✅ References
-
-* Original German workaround on PiNetzwerk Deutschland ([pinetzwerkdeutschland.de][1])
-* WireGuard VPN and port forwarding explained ([pinetzwerkdeutschland.de][2])
-
----
-
-Feel free to contribute improvements or report issues via GitHub.
-
-[1]: https://pinetzwerkdeutschland.de/betrieb-eines-pi-node-mit-einem-ds-lite-und-ipv6-anschluss/?utm_source=chatgpt.com "Betrieb eines Pi Node mit einem DS-lite und IPv6 Anschluss"
-[2]: https://pinetzwerkdeutschland.de/pi-network-windows-node-setup-wizard/?utm_source=chatgpt.com "Pi Network Windows Node Setup Wizard - Pi Netzwerk Deutschland"
-
-
 ## 📜 License
 
 This script is free software: you can redistribute and/or modify it under the terms of the GNU General Public License v3.0.
