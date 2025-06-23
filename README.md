@@ -99,7 +99,7 @@ Don’t forget: open **UDP WireGuard port (usually 51820)** and **TCP 31400–31
 2. Install the **Pi Node software**
 3. Reboot your PC
 4. Docker Desktop and the Pi Node Software should now automatically start. Start Pi Node by toggling the switch. 
-
+5. In Docker Desktop, the Pi Port Checker container should run first and after a successful ping check and a click on "Continue" the Pi Network Testnet2 container:
    * **Pi Port Checker** (needs TCP 31400–31409 open)
    * **Pi Network Testnet2 / Consensus** (uses TCP ports 31401–31403)
 
@@ -232,7 +232,7 @@ Nicht vergessen: Auf dem VPS die **UDP-Portweiterleitung für WireGuard (Standar
 2. **Pi Node Software installieren**
 3. PC neu starten
 4. Docker Desktop und die Pi Node Software sollten jetzt automatisch starten. Aktiviere den Pi Node über den Schiebeschalter.
-
+5. In Docker Desktop sollte zunächst der Pi Port Checker Container und nach erfolgreichem Ping Check und einem Klick auf "Continue" der Pi Network Testnet2 Container laufen:
    * **Pi Port Checker** (benötigt TCP 31400–31409 offen)
    * **Pi Network Testnet2 / Consensus** (nutzt TCP 31401–31403)
 
