@@ -13,7 +13,7 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
 * **Windows 11 x64 (Home or Pro)**, fully up-to-date
 * Internet connection with **Dual‑Stack‑Lite (DS‑Lite) + IPv6**
 * **VPS (Ubuntu 24.04 LTS)** with a **public IPv4 address** and root or sudo access
-* **Pi Node software** (v0.5, auto‑upgrading to v0.5.2)
+* **Pi Node software** (v0.5.2)
 * **WireGuard** (latest Windows client)
 * **Docker Desktop** (v4.42.1 or newer)
 * **SSH client** (e.g. PuTTY)
@@ -142,7 +142,7 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 * **Windows 11 x64 (Home oder Pro)**, vollständig aktualisiert
 * Internetverbindung mit **Dual‑Stack‑Lite (DS‑Lite) + IPv6**
 * **VPS (Ubuntu 24.04 LTS)** mit **öffentlicher IPv4-Adresse** und Root- oder Sudo-Zugang
-* **Pi Node Software** (v0.5, automatische Aktualisierung auf v0.5.2)
+* **Pi Node Software** (v0.5.2)
 * **WireGuard** (aktuelle Windows-Version)
 * **Docker Desktop** (v4.42.1 oder neuer)
 * **SSH-Client** (z. B. PuTTY)
