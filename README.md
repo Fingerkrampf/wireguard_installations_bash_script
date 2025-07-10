@@ -121,7 +121,7 @@ For more information, please visit: https://www.gnu.org/licenses/
 
 ## 🙋‍♂️ Author
 
-Fingerkrampf / PiNetzwerkDeutschland.de
+Fingerkrampf / t.me/PiNetzwerkDeutschland
 If you have any questions or suggestions for improvements, feel free to open an issue or submit a pull request!
 
 ---
@@ -256,7 +256,7 @@ Mehr Informationen: [https://www.gnu.org/licenses/](https://www.gnu.org/licenses
 
 ## 🙋‍♂️ Autor
 
-**Fingerkrampf / PiNetzwerkDeutschland.de**
+**Fingerkrampf / t.me/PiNetzwerkDeutschland**
 Bei Fragen oder Verbesserungsvorschlägen gerne ein Issue oder Pull Request eröffnen!
 
 ---
