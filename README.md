@@ -16,6 +16,7 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
 * **Pi Node software** (v0.5.2)
 * **WireGuard** (latest Windows client)
 * **Docker Desktop** (v4.42.1 or newer)
+* **WSL2 Linux kernel** (lastest Version)
 * **SSH client** (e.g. PuTTY)
 
 ---
@@ -26,6 +27,7 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
 
    * Pi Node software
    * Docker Desktop v4.42.1
+   * WSL2 Linux kernel
    * WireGuard for Windows
    * PuTTY (SSH client)
 
@@ -145,6 +147,7 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 * **Pi Node Software** (v0.5.2)
 * **WireGuard** (aktuelle Windows-Version)
 * **Docker Desktop** (v4.42.1 oder neuer)
+* **WSL2 Linux kernel** (aktuelle Version)
 * **SSH-Client** (z. B. PuTTY)
 
 ---
@@ -155,6 +158,7 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 
    * Pi Node Software
    * Docker Desktop v4.42.1
+   * WSL2 Linux kernel
    * WireGuard für Windows
    * PuTTY (SSH-Client)
 
