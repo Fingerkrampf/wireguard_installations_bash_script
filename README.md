@@ -109,6 +109,12 @@ Ensure at least one container is running for port checks to succeed.
 
 ---
 
+## 📹 YouTube Howto Video
+
+https://youtu.be/ZzDOMnEd-c0
+
+---
+
 ## 🤝 Summary
 
 This workaround gives your Pi Node a **public IPv4 address via your VPS using WireGuard**, bypassing the IPv4 restrictions of DS‑Lite. It ensures full Pi Node functionality even with an IPv6-only ISP connection.
@@ -241,6 +247,12 @@ Nicht vergessen: Auf dem VPS die **UDP-Portweiterleitung für WireGuard (Standar
    * **Pi Network Testnet2 / Consensus** (nutzt TCP 31401–31403)
 
 Mindestens ein Container muss laufen, damit der Port-Check funktioniert.
+
+---
+
+## 📹 YouTube Howto Video
+
+https://youtu.be/ZzDOMnEd-c0
 
 ---
 
