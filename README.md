@@ -192,7 +192,7 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 
    * Öffne **Windows Defender Firewall > Erweiterte Einstellungen**
    * Erstelle eingehende und ausgehende Regeln für **TCP-Ports 31400–31409**
-   * Alternativ kann mein Batch Skript (https://github.com/Fingerkrampf/Windows_Firewall_Port_Opener_Script) herunterladen, entpacken und "als Administrator ausführen", ausgeführt werden. Dieses Batchskript fügt automatisch alle erforderlichen Ports in die Windows-Firewall ein
+   * Alternativ kann mein Batch Skript (https://github.com/Fingerkrampf/Windows_Firewall_Port_Opener_Script) herunterladen, entpackt und "als Administrator ausführen", ausgeführt werden. Dieses Batchskript fügt automatisch alle erforderlichen Ports in die Windows-Firewall ein
    * Falls dein VPS-Anbieter eine eigene Firewall verwendet, dort ebenfalls dieselben Ports freigeben
 
 ---
