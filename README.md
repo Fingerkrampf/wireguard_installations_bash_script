@@ -2,9 +2,9 @@
 
 # Workaround: Running a Pi Node behind DS‑Lite + IPv6
 
-This guide explains how to run a Pi Network Node on **Windows** when your ISP provides only a DS‑Lite + IPv6 connection (no public IPv4). It uses a **WireGuard VPN tunnel** to a VPS to bypass this limitation.
+This guide explains how to run a Pi Node on **Windows** when your ISP provides only a DS‑Lite + IPv6 connection (no public IPv4). It uses a **WireGuard VPN tunnel** to a VPS to bypass this limitation.
 
-*Last updated: June 23, 2025*
+*Last updated: July 20, 2025*
 
 ---
 
@@ -12,10 +12,10 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
 
 * **Windows 11 x64 (Home or Pro)**, fully up-to-date
 * Internet connection with **Dual‑Stack‑Lite (DS‑Lite) + IPv6**
-* **VPS (Ubuntu 24.04 LTS)** with a **public IPv4 address** and root or sudo access
-* **Pi Node software** (v0.5.2)
-* **WireGuard** (latest Windows client)
-* **Docker Desktop** (v4.42.1 or newer)
+* **VPS (Ubuntu 24.04)** with a **public IPv4 address** and root or sudo access
+* **Pi Desktop** (lastest Version)
+* **WireGuard** (lastest Windows client)
+* **Docker Desktop** (lastest Version)
 * **WSL2 Linux kernel** (lastest Version)
 * **SSH client** (e.g. PuTTY)
 
@@ -23,13 +23,13 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
 
 ## 🚀 Step 1: Set Up Windows Client
 
-1. **Download and install**:
+1. **Downloads**:
 
-   * Pi Node software
-   * Docker Desktop v4.42.1
-   * WSL2 Linux kernel
-   * WireGuard for Windows
-   * PuTTY (SSH client)
+   * Pi Desktop [DOWNLOAD](https://minepi.com/pi-blockchain/pi-node/)
+   * Docker Desktop [DOWNLOAD](https://docs.docker.com/desktop/release-notes/)
+   * WSL2 [DOWNLOAD](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+   * WireGuard for Windows [DOWNLOAD](https://www.wireguard.com/install/)
+   * PuTTY (SSH client) [DOWNLOAD](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 2. **Enable Windows features** (run PowerShell as admin):
 
@@ -41,7 +41,7 @@ This guide explains how to run a Pi Network Node on **Windows** when your ISP pr
    ```
 
    * Restart the PC
-   * Install the latest WSL2 Linux kernel update
+   * Install WSL2
    * Run:
 
      ```powershell
@@ -98,9 +98,9 @@ Don’t forget: open **UDP WireGuard port (usually 51820)** and **TCP 31400–31
 ## 🐳 Step 3: Install Docker & Pi Node
 
 1. Install **Docker Desktop**
-2. Install the **Pi Node software**
+2. Install **Pi Desktop**
 3. Reboot your PC
-4. Docker Desktop and the Pi Node Software should now automatically start. Start Pi Node by toggling the switch. 
+4. Docker Desktop and Pi Desktop should now automatically start. Start Pi Node by toggling the switch. 
 5. In Docker Desktop, the Pi Port Checker container should run first and after a successful ping check and a click on "Continue" the Pi Network Testnet2 container:
    * **Pi Port Checker** (needs TCP 31400–31409 open)
    * **Pi Network Testnet2 / Consensus** (uses TCP ports 31401–31403)
@@ -111,7 +111,7 @@ Ensure at least one container is running for port checks to succeed.
 
 ## 📹 YouTube Howto Video
 
-https://youtu.be/ZzDOMnEd-c0
+[https://youtu.be/ZzDOMnEd-c0](https://youtu.be/ZzDOMnEd-c0)
 
 ---
 
@@ -139,9 +139,9 @@ If you have any questions or suggestions for improvements, feel free to open an 
 
 # Workaround: Betrieb eines Pi Node hinter DS‑Lite + IPv6
 
-Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreiben kannst, wenn dein Internetanbieter dir nur eine **DS‑Lite + IPv6**‑Verbindung bereitstellt (also keine öffentliche IPv4-Adresse). Zur Umgehung dieser Einschränkung wird ein **WireGuard-VPN-Tunnel** zu einem VPS verwendet.
+Diese Anleitung erklärt, wie du einen Pi Node unter **Windows** betreiben kannst, wenn dein Internetanbieter dir nur eine **DS‑Lite + IPv6**‑Verbindung bereitstellt (also keine öffentliche IPv4-Adresse). Zur Umgehung dieser Einschränkung wird ein **WireGuard-VPN-Tunnel** zu einem VPS verwendet.
 
-*Letzte Aktualisierung: 23. Juni 2025*
+*Letzte Aktualisierung: 20. Juli 2025*
 
 ---
 
@@ -149,10 +149,10 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 
 * **Windows 11 x64 (Home oder Pro)**, vollständig aktualisiert
 * Internetverbindung mit **Dual‑Stack‑Lite (DS‑Lite) + IPv6**
-* **VPS (Ubuntu 24.04 LTS)** mit **öffentlicher IPv4-Adresse** und Root- oder Sudo-Zugang
-* **Pi Node Software** (v0.5.2)
+* **VPS (Ubuntu 24.04)** mit **öffentlicher IPv4-Adresse** und Root- oder Sudo-Zugang
+* **Pi Desktop** (aktuelle Version)
 * **WireGuard** (aktuelle Windows-Version)
-* **Docker Desktop** (v4.42.1 oder neuer)
+* **Docker Desktop** (aktuelle Version)
 * **WSL2 Linux kernel** (aktuelle Version)
 * **SSH-Client** (z. B. PuTTY)
 
@@ -160,13 +160,13 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
 
 ## 🚀 Schritt 1: Windows-Client vorbereiten
 
-1. **Herunterladen und installieren**:
+1. **Herunterladen**:
 
-   * Pi Node Software
-   * Docker Desktop v4.42.1
-   * WSL2 Linux kernel
-   * WireGuard für Windows
-   * PuTTY (SSH-Client)
+   * Pi Desktop [DOWNLOAD](https://minepi.com/pi-blockchain/pi-node/)
+   * Docker Desktop [DOWNLOAD](https://docs.docker.com/desktop/release-notes/)
+   * WSL2 [DOWNLOAD](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+   * WireGuard for Windows [DOWNLOAD](https://www.wireguard.com/install/)
+   * PuTTY (SSH client) [DOWNLOAD](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 2. **Windows-Features aktivieren** (PowerShell als Administrator ausführen):
 
@@ -178,7 +178,7 @@ Diese Anleitung erklärt, wie du einen Pi Network Node unter **Windows** betreib
    ```
 
    * PC neu starten
-   * Aktuelles WSL2-Linux-Kernel-Update installieren
+   * WSL2 installieren
    * Danach ausführen:
 
      ```powershell
@@ -239,9 +239,9 @@ Nicht vergessen: Auf dem VPS die **UDP-Portweiterleitung für WireGuard (Standar
 ## 🐳 Schritt 3: Docker & Pi Node installieren
 
 1. **Docker Desktop installieren**
-2. **Pi Node Software installieren**
+2. **Pi Desktop installieren**
 3. PC neu starten
-4. Docker Desktop und die Pi Node Software sollten jetzt automatisch starten. Aktiviere den Pi Node über den Schiebeschalter.
+4. Docker Desktop und Pi Desktop sollten jetzt automatisch starten. Aktiviere den Pi Node über den Schiebeschalter.
 5. In Docker Desktop sollte zunächst der Pi Port Checker Container und nach erfolgreichem Ping Check und einem Klick auf "Continue" der Pi Network Testnet2 Container laufen:
    * **Pi Port Checker** (benötigt TCP 31400–31409 offen)
    * **Pi Network Testnet2 / Consensus** (nutzt TCP 31401–31403)
@@ -252,7 +252,7 @@ Mindestens ein Container muss laufen, damit der Port-Check funktioniert.
 
 ## 📹 YouTube Howto Video
 
-https://youtu.be/ZzDOMnEd-c0
+[https://youtu.be/ZzDOMnEd-c0](https://youtu.be/ZzDOMnEd-c0)
 
 ---
 
