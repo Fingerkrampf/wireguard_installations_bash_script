@@ -73,10 +73,7 @@ This guide explains how to run a Pi Node on **Windows** when your ISP provides o
 2. Run the following to install WireGuard:
 
    ```bash
-     apt update \
-     && apt-mark hold openssh-server \
-     && apt upgrade -y \
-     && apt install -y unzip wget \
+     apt install -y unzip wget \
      && wget https://github.com/Fingerkrampf/wireguard_installations_bash_script/archive/refs/heads/main.zip -O wg.zip \
      && unzip wg.zip \
      && cd wireguard_installations_bash_script-main \
@@ -210,10 +207,7 @@ Diese Anleitung erklärt, wie du einen Pi Node unter **Windows** betreiben kanns
 2. Folgenden Befehl zur Installation von WireGuard ausführen:
 
    ```bash
-     apt update \
-     && apt-mark hold openssh-server \
-     && apt upgrade -y \
-     && apt install -y unzip wget \
+     apt install -y unzip wget \
      && wget https://github.com/Fingerkrampf/wireguard_installations_bash_script/archive/refs/heads/main.zip -O wg.zip \
      && unzip wg.zip \
      && cd wireguard_installations_bash_script-main \
